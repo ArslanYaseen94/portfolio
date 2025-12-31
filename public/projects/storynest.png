@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradStory" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f111a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1d2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradStory" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4ADEDE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bgGradStory)"/>
+  
+  <!-- Story/Book icon with sparkles -->
+  <circle cx="350" cy="280" r="5" fill="#4ADEDE" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="260" r="4" fill="#A78BFA" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="240" r="3" fill="#4ADEDE" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Open book -->
+  <path d="M 300 300 Q 400 280 500 300 L 500 380 Q 400 360 300 380 Z" fill="none" stroke="#4ADEDE" stroke-width="3" opacity="0.4"/>
+  <path d="M 400 280 L 400 360" stroke="#4ADEDE" stroke-width="2" opacity="0.3"/>
+  <path d="M 320 320 L 380 318" stroke="#A78BFA" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 420 318 L 480 320" stroke="#A78BFA" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 320 340 L 380 338" stroke="#A78BFA" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 420 338 L 480 340" stroke="#A78BFA" stroke-width="1.5" opacity="0.4"/>
+  
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#textGradStory)" text-anchor="middle">StoryNest</text>
+  <text x="400" y="490" font-family="Arial, sans-serif" font-size="24" fill="#A78BFA" text-anchor="middle" opacity="0.8">AI Story Generator</text>
+</svg>

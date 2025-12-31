@@ -1,0 +1,16 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EF4444;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad1)"/>
+  <rect x="0" y="500" width="1200" height="130" fill="rgba(0,0,0,0.7)"/>
+  <text x="600" y="550" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">Voice Calling Agents: AI-Powered Assistants</text>
+  <text x="600" y="590" text-anchor="middle" fill="#E5E7EB" font-family="Arial, sans-serif" font-size="24">Build intelligent voice agents with speech recognition & natural conversations</text>
+  <circle cx="200" cy="180" r="40" fill="white" opacity="0.3"/>
+  <circle cx="1000" cy="150" r="50" fill="white" opacity="0.2"/>
+  <text x="120" y="120" fill="white" font-family="Arial, sans-serif" font-size="64" font-weight="bold">🎤</text>
+  <text x="120" y="200" fill="white" font-family="Arial, sans-serif" font-size="28">Voice AI</text>
+</svg>

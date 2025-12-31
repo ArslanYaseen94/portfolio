@@ -1,0 +1,60 @@
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="300" fill="url(#bg)"/>
+
+  <!-- AI Brain with gears -->
+  <g transform="translate(80, 100)">
+    <!-- Brain outline -->
+    <path d="M 50 20 Q 20 20 20 50 Q 20 80 50 80 Q 80 80 80 50 Q 80 20 50 20 Z" fill="url(#iconBg)" stroke="#495057" stroke-width="2"/>
+    <!-- Neural connections -->
+    <circle cx="35" cy="35" r="4" fill="#ff6b6b"/>
+    <circle cx="50" cy="45" r="4" fill="#4ecdc4"/>
+    <circle cx="65" cy="35" r="4" fill="#ffe66d"/>
+    <line x1="35" y1="35" x2="50" y2="45" stroke="#495057" stroke-width="2"/>
+    <line x1="50" y1="45" x2="65" y2="35" stroke="#495057" stroke-width="2"/>
+    <line x1="35" y1="35" x2="65" y2="35" stroke="#495057" stroke-width="2"/>
+  </g>
+
+  <!-- Creative elements -->
+  <g transform="translate(200, 80)">
+    <!-- Paint brush -->
+    <rect x="10" y="20" width="8" height="40" fill="#8e44ad" rx="2"/>
+    <rect x="5" y="10" width="18" height="15" fill="#f39c12" rx="2"/>
+    <!-- Color palette -->
+    <circle cx="40" cy="30" r="8" fill="#e74c3c"/>
+    <circle cx="55" cy="25" r="8" fill="#27ae60"/>
+    <circle cx="70" cy="35" r="8" fill="#3498db"/>
+    <circle cx="45" cy="45" r="8" fill="#f1c40f"/>
+  </g>
+
+  <!-- Text generation icon -->
+  <g transform="translate(350, 120)">
+    <!-- Document -->
+    <rect x="10" y="10" width="40" height="50" fill="url(#iconBg)" stroke="#495057" stroke-width="2" rx="3"/>
+    <line x1="15" y1="25" x2="45" y2="25" stroke="#495057" stroke-width="2"/>
+    <line x1="15" y1="35" x2="40" y2="35" stroke="#495057" stroke-width="2"/>
+    <line x1="15" y1="45" x2="35" y2="45" stroke="#495057" stroke-width="2"/>
+    <!-- Magic wand/sparkles -->
+    <path d="M 5 5 L 8 2 L 11 5 L 14 2 L 17 5 L 14 8 L 17 11 L 14 14 L 11 11 L 8 14 L 5 11 L 2 14 L -1 11 L 2 8 Z" fill="#f39c12"/>
+  </g>
+
+  <!-- Title -->
+  <text x="250" y="220" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Generative AI Applications</text>
+  <text x="250" y="245" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" opacity="0.9">Business Automation & Innovation</text>
+
+  <!-- Decorative elements -->
+  <circle cx="120" cy="250" r="6" fill="#ffffff" opacity="0.3"/>
+  <circle cx="380" cy="200" r="5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="450" cy="260" r="4" fill="#ffffff" opacity="0.2"/>
+</svg>

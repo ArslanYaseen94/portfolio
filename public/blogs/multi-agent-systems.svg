@@ -1,0 +1,67 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="agentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+
+  <!-- Connection lines -->
+  <g stroke="url(#connectionGradient)" stroke-width="3" fill="none" opacity="0.7">
+    <path d="M200 150 Q400 100 600 150" stroke-dasharray="5,5"/>
+    <path d="M200 250 Q400 300 600 250" stroke-dasharray="5,5"/>
+    <path d="M200 200 Q400 200 600 200"/>
+  </g>
+
+  <!-- Agent nodes -->
+  <circle cx="200" cy="150" r="40" fill="url(#agentGradient)" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="200" cy="250" r="40" fill="url(#agentGradient)" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="400" cy="200" r="50" fill="url(#agentGradient)" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="600" cy="150" r="40" fill="url(#agentGradient)" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="600" cy="250" r="40" fill="url(#agentGradient)" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- Agent labels -->
+  <text x="200" y="160" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Agent 1</text>
+  <text x="200" y="260" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Agent 2</text>
+  <text x="400" y="210" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Coordinator</text>
+  <text x="600" y="160" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Agent 3</text>
+  <text x="600" y="260" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Agent 4</text>
+
+  <!-- Data flow arrows -->
+  <polygon points="320,195 340,200 320,205" fill="#f59e0b"/>
+  <polygon points="480,195 500,200 480,205" fill="#f59e0b"/>
+  <polygon points="320,205 340,200 320,195" fill="#06b6d4"/>
+  <polygon points="480,205 500,200 480,195" fill="#06b6d4"/>
+
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Multi-Agent Systems</text>
+  <text x="400" y="80" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" opacity="0.9">Collaborative AI Agents & Orchestration</text>
+
+  <!-- Technology badges -->
+  <rect x="50" y="320" width="80" height="25" rx="12" fill="#ffffff" opacity="0.2"/>
+  <text x="90" y="337" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">LangChain</text>
+
+  <rect x="150" y="320" width="70" height="25" rx="12" fill="#ffffff" opacity="0.2"/>
+  <text x="185" y="337" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">AutoGen</text>
+
+  <rect x="240" y="320" width="60" height="25" rx="12" fill="#ffffff" opacity="0.2"/>
+  <text x="270" y="337" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">CrewAI</text>
+
+  <rect x="320" y="320" width="80" height="25" rx="12" fill="#ffffff" opacity="0.2"/>
+  <text x="360" y="337" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">OpenAI API</text>
+
+  <rect x="420" y="320" width="90" height="25" rx="12" fill="#ffffff" opacity="0.2"/>
+  <text x="465" y="337" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">Orchestration</text>
+</svg>

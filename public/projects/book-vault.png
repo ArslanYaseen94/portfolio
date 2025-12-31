@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f111a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1d2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4ADEDE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Book icon -->
+  <path d="M 300 200 L 300 400 L 500 400 L 500 200 Z" fill="none" stroke="#4ADEDE" stroke-width="3" opacity="0.3"/>
+  <path d="M 320 220 L 480 220" stroke="#4ADEDE" stroke-width="2" opacity="0.4"/>
+  <path d="M 320 250 L 480 250" stroke="#4ADEDE" stroke-width="2" opacity="0.4"/>
+  <path d="M 320 280 L 480 280" stroke="#4ADEDE" stroke-width="2" opacity="0.4"/>
+  <path d="M 320 310 L 420 310" stroke="#4ADEDE" stroke-width="2" opacity="0.4"/>
+  
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#textGrad)" text-anchor="middle">Book-Vault</text>
+  <text x="400" y="500" font-family="Arial, sans-serif" font-size="24" fill="#A78BFA" text-anchor="middle" opacity="0.8">Online Bookstore Platform</text>
+</svg>
