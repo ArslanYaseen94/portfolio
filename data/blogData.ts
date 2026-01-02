@@ -140,7 +140,7 @@ export interface BlogPost {
       readTime: "8 min read",
       category: "Web Development",
       slug: "building-scalable-web-applications",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Next.js", "React", "Web Development", "Performance", "Scalability"],
     },
     {
@@ -317,7 +317,7 @@ export interface BlogPost {
       readTime: "10 min read",
       category: "AI & ML",
       slug: "machine-learning-for-web-developers",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Machine Learning", "AI", "Web Development", "TensorFlow.js", "User Experience"],
     },
     {
@@ -597,7 +597,7 @@ export interface BlogPost {
       readTime: "9 min read",
       category: "Database",
       slug: "optimizing-database-performance",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Database", "Performance", "SQL", "MongoDB", "Optimization"],
     },
     {
@@ -707,7 +707,7 @@ export interface BlogPost {
       readTime: "9 min read",
       category: "Web Development",
       slug: "future-of-web-development-2024",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Web Development", "AI", "WebAssembly", "Edge Computing", "PWAs", "Web3"],
     },
     {
@@ -1361,7 +1361,7 @@ Start small, iterate often, and always prioritize user value in your agent devel
       readTime: "25 min read",
       category: "AI & Machine Learning",
       slug: "complete-guide-building-ai-agents-2025",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["AI Agents", "Artificial Intelligence", "OpenAI", "LangChain", "GPT-4", "Machine Learning", "Autonomous Agents", "AI Development", "Production AI", "Agent Architecture", "Multi-Agent Systems", "Task Automation", "Intelligent Agents", "Conversational AI"],
     },
     {
@@ -1377,7 +1377,7 @@ Build production-ready AI chatbots with NLP, context awareness, and multi-platfo
       readTime: "15 min read",
       category: "AI & Machine Learning",
       slug: "ai-chatbot-development-best-practices",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Chatbot", "AI", "NLP", "Conversational AI", "Customer Service", "OpenAI", "Python", "Machine Learning", "Automation", "WhatsApp Bot"],
     },
     {
@@ -1393,7 +1393,7 @@ Generative AI is transforming business automation. Learn to build practical appl
       readTime: "12 min read",
       category: "AI & Machine Learning",
       slug: "generative-ai-applications-business-automation",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Generative AI", "GPT-4", "Business Automation", "AI Applications", "Machine Learning", "OpenAI", "Enterprise AI", "Content Generation"],
     },
     {
@@ -1409,7 +1409,7 @@ Master LangChain to build sophisticated AI applications. Learn about chains, age
       readTime: "16 min read",
       category: "AI & Machine Learning",
       slug: "langchain-tutorial-advanced-ai-applications",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["LangChain", "AI Development", "Python", "OpenAI", "Vector Database", "RAG", "AI Frameworks", "LLM Applications"],
     },
     {
@@ -1425,7 +1425,7 @@ Transform your WordPress site with AI-powered features. Learn to integrate chatb
       readTime: "11 min read",
       category: "Web Development",
       slug: "wordpress-ai-integration-guide",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["WordPress", "AI Integration", "Chatbot", "Content Generation", "SEO", "Web Development", "PHP", "OpenAI"],
     },
     {
@@ -1441,7 +1441,7 @@ Implement Retrieval-Augmented Generation systems for accurate AI responses. Lear
       readTime: "14 min read",
       category: "AI & Machine Learning",
       slug: "rag-retrieval-augmented-generation-guide",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["RAG", "Vector Database", "Embeddings", "Pinecone", "Semantic Search", "LLM", "AI", "Question Answering"],
     },
     {
@@ -1457,7 +1457,7 @@ Build robust backends for AI applications using Django REST Framework. Learn API
       readTime: "13 min read",
       category: "Web Development",
       slug: "django-rest-framework-ai-applications",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Django", "REST API", "Python", "Backend Development", "AI Backend", "PostgreSQL", "API Design", "Web Services"],
     },
     {
@@ -1473,7 +1473,7 @@ Build modern full-stack applications with Next.js 14. Learn Server Components, A
       readTime: "17 min read",
       category: "Web Development",
       slug: "nextjs-full-stack-ai-applications",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Next.js", "React", "Full Stack", "TypeScript", "Server Components", "AI Integration", "Web Development", "JavaScript"],
     },
     {
@@ -1489,7 +1489,7 @@ Master vector databases for AI applications. Compare top solutions and learn imp
       readTime: "10 min read",
       category: "AI & Machine Learning",
       slug: "vector-databases-complete-comparison-guide",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Vector Database", "Pinecone", "Weaviate", "Chroma", "Embeddings", "Semantic Search", "AI", "Database"],
     },
     {
@@ -1505,7 +1505,7 @@ Master OpenAI API for production use. Learn advanced techniques, cost optimizati
       readTime: "12 min read",
       category: "AI & Machine Learning",
       slug: "openai-api-mastery-production-guide",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["OpenAI", "GPT-4", "API", "Prompt Engineering", "AI Development", "Function Calling", "Cost Optimization", "Production AI"],
     },
     {
@@ -1521,7 +1521,7 @@ Build and launch successful AI-powered SaaS products. Learn architecture, moneti
       readTime: "19 min read",
       category: "Business & Startups",
       slug: "building-ai-powered-saas-applications",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["SaaS", "AI", "Startup", "Business", "Monetization", "Stripe", "Authentication", "Scaling"],
     },
     {
@@ -1653,7 +1653,7 @@ AI agents represent the next evolution in artificial intelligence, moving beyond
       readTime: "22 min read",
       category: "AI & Machine Learning",
       slug: "ai-agents-complete-guide-autonomous-agents-2025",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["AI Agents", "Autonomous Agents", "Multi-Agent Systems", "Agent Development", "Artificial Intelligence", "Machine Learning", "GPT-4", "OpenAI", "Intelligent Agents", "Agent Frameworks"],
     },
     {
@@ -2481,7 +2481,7 @@ Start with a clear understanding of your use case, implement robust quality moni
       readTime: "28 min read",
       category: "AI & Machine Learning",
       slug: "voice-calling-agents-ai-powered-voice-assistants",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Voice Calling Agents", "AI Voice Assistants", "Speech Recognition", "Text-to-Speech", "Conversational AI", "Call Center Automation", "Customer Service", "Natural Language Processing", "Voice AI", "Automated Calling", "Call Routing", "CRM Integration", "Speech Analytics"],
     },
     {
@@ -2871,7 +2871,7 @@ Multi-agent systems offer powerful solutions for complex, distributed problems t
       readTime: "28 min read",
       category: "AI & Machine Learning",
       slug: "multi-agent-systems-collaborative-ai-agents",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Multi-Agent Systems", "Collaborative AI", "Agent Coordination", "Distributed Intelligence", "Agent Communication", "Cooperative Agents", "AI Teams", "Agent Negotiation", "Swarm Intelligence", "Collective Intelligence"],
     },
     {
@@ -3343,7 +3343,7 @@ Agent-based modeling provides powerful insights into complex systems by simulati
       readTime: "30 min read",
       category: "AI & Machine Learning",
       slug: "agent-based-modeling-simulate-complex-systems",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Agent-Based Modeling", "Complex Systems", "Simulation", "Emergent Behavior", "Multi-Agent Systems", "Computational Modeling", "Systems Science", "Artificial Life", "Social Simulation", "Economic Modeling"],
     },
     {
@@ -3979,7 +3979,7 @@ Building effective conversational AI agents requires understanding both technica
       readTime: "32 min read",
       category: "AI & Machine Learning",
       slug: "conversational-ai-agents-natural-chatbots",
-      author: "Talib Husain",
+      author: "Arslan Yassen",
       tags: ["Conversational AI", "Chatbots", "Natural Language Processing", "Dialogue Systems", "AI Agents", "NLP", "Machine Learning", "Voice Assistants", "Customer Service", "Intelligent Agents"],
     },
   ];

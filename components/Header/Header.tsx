@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import ThemeToggle from "@/components/ThemeToggle/ThemeToggle"
 import styles from "./Header.module.css"
 
 const Header = () => {
@@ -66,15 +67,19 @@ const Header = () => {
           </span>
         </Link>
 
-        <button
-          className={`${styles.menuButton} ${isMenuOpen ? styles.active : ""}`}
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        <div className={styles.rightSection}>
+          <ThemeToggle />
+
+          <button
+            className={`${styles.menuButton} ${isMenuOpen ? styles.active : ""}`}
+            onClick={toggleMenu}
+            aria-label="Toggle menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
 
         <nav className={`${styles.nav} ${isMenuOpen ? styles.active : ""}`}>
           <ul className={styles.navList}>

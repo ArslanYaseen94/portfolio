@@ -1,5 +1,5 @@
 .experience {
-  background: rgba(15, 17, 26, 0.3);
+  background: var(--deep-midnight-lighter);
 }
 
 .content {
@@ -37,7 +37,7 @@
   top: 0;
   height: 100%;
   width: 2px;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--card-border);
 }
 
 .timelineItem {
@@ -57,8 +57,8 @@
 }
 
 .timelineContent {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 8px;
   padding: 1.5rem;
   transition: all 0.3s ease;
@@ -66,7 +66,7 @@
 
 .timelineContent:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--glass-shadow);
 }
 
 .itemTitle {
@@ -86,12 +86,12 @@
 }
 
 .period {
-  color: rgba(241, 245, 249, 0.6);
+  color: var(--text-color-muted);
 }
 
 .description {
   list-style-position: inside;
-  color: rgba(241, 245, 249, 0.8);
+  color: var(--text-color-muted);
 }
 
 .description li {
@@ -100,7 +100,7 @@
 }
 
 .eduDescription {
-  color: rgba(241, 245, 249, 0.8);
+  color: var(--text-color-muted);
   line-height: 1.5;
 }
 

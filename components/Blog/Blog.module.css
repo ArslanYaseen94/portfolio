@@ -1,5 +1,5 @@
 .blog {
-  background: rgba(15, 17, 26, 0.5);
+  background: var(--deep-midnight);
   position: relative;
 }
 
@@ -11,8 +11,8 @@
 }
 
 .blogCard {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -28,7 +28,7 @@
 
 .blogCard:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--glass-shadow);
 }
 
 .blogImage {
@@ -130,7 +130,7 @@
 
 .viewAllBtn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(74, 222, 222, 0.4);
+  box-shadow: var(--gradient-glow-hover);
 }
 
 @media (max-width: 992px) {

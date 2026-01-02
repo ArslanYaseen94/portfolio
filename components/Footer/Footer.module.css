@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(to top, rgba(15, 17, 26, 1), rgba(15, 17, 26, 0.8));
+  background: linear-gradient(to top, var(--deep-midnight), var(--deep-midnight-lighter));
   padding: 6rem 0 2rem;
   position: relative;
   overflow: hidden;
@@ -81,7 +81,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--glass-bg);
   color: var(--text-color);
   transition: all 0.3s ease;
 }
@@ -180,7 +180,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid var(--card-border);
 }
 
 .bottom p {

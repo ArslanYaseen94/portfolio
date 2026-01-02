@@ -26,7 +26,7 @@
 
 .scrollToTop:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(74, 222, 222, 0.5);
+  box-shadow: var(--gradient-glow-hover);
 }
 
 @media (max-width: 768px) {

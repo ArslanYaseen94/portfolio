@@ -1,5 +1,5 @@
 .about {
-  background: rgba(15, 17, 26, 0.5);
+  background: var(--deep-midnight-lighter);
   position: relative;
   overflow: hidden;
 }
@@ -29,10 +29,10 @@
   position: relative;
   padding: 2rem;
   border-radius: 16px;
-  background: rgba(20, 22, 35, 0.4);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--card-bg);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-shadow);
+  border: 1px solid var(--card-border);
 }
 
 .header {
@@ -62,12 +62,12 @@
   position: relative;
   padding: 1.5rem;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--glass-bg);
   border-left: 3px solid var(--soft-aqua);
 }
 
 .bio {
-  color: rgba(241, 245, 249, 0.9);
+  color: var(--text-color-muted);
   line-height: 1.8;
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
@@ -85,7 +85,7 @@
   margin-top: 1rem;
   padding: 1.5rem;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--glass-bg);
 }
 
 .detail {
@@ -108,7 +108,7 @@
 
 .value {
   font-size: 1.05rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text-color);
 }
 
 .timeline {
@@ -120,7 +120,7 @@
   margin-bottom: 2rem;
   position: relative;
   display: inline-block;
-  color: rgba(255, 255, 255, 0.95);
+  color: var(--text-color);
   letter-spacing: 0.5px;
 }
 
@@ -147,7 +147,7 @@
   top: 0;
   height: 100%;
   width: 2px;
-  background: linear-gradient(180deg, var(--soft-aqua), rgba(255, 255, 255, 0.1));
+  background: linear-gradient(180deg, var(--soft-aqua), var(--card-border));
 }
 
 .timelineItem {
@@ -177,7 +177,7 @@
 }
 
 .timelineContent {
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--glass-bg);
   padding: 1.5rem;
   border-radius: 12px;
   border-left: 3px solid var(--pastel-violet);
@@ -186,7 +186,7 @@
 .timelineContent h5 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: rgba(255, 255, 255, 0.95);
+  color: var(--text-color);
 }
 
 .timelinePeriod {
@@ -197,7 +197,7 @@
 }
 
 .timelineContent p {
-  color: rgba(241, 245, 249, 0.8);
+  color: var(--text-color-muted);
   line-height: 1.6;
 }
 

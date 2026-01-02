@@ -1,5 +1,5 @@
 .testimonials {
-  background: rgba(15, 17, 26, 0.3);
+  background: var(--deep-midnight);
   position: relative;
   overflow: hidden;
 }
@@ -29,15 +29,15 @@
 }
 
 .testimonialWrapper {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 16px;
   padding: 3rem;
   position: relative;
   margin-bottom: 2rem;
   transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-shadow);
 }
 
 .testimonialWrapper:hover {
@@ -191,8 +191,8 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
   color: var(--text-color);
   transition: all 0.3s ease;
   cursor: pointer;
@@ -213,8 +213,8 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
   transition: all 0.3s ease;
   cursor: pointer;
 }

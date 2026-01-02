@@ -1,3 +1,51 @@
+/* Light Mode Variables */
+:root[data-theme="light"] {
+  --deep-midnight: #f8fafc;
+  --deep-midnight-lighter: #ffffff;
+  --soft-aqua: #0891b2;
+  --soft-aqua-dark: #0e7490;
+  --pastel-violet: #9333ea;
+  --pastel-violet-dark: #7e22ce;
+  --text-color: #0f172a;
+  --text-color-muted: rgba(15, 23, 42, 0.7);
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --card-border: rgba(0, 0, 0, 0.1);
+  --card-hover-bg: rgba(255, 255, 255, 1);
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(0, 0, 0, 0.1);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  --glass-blur: blur(10px);
+
+  --gradient-primary: linear-gradient(90deg, var(--soft-aqua), var(--pastel-violet));
+  --gradient-primary-hover: linear-gradient(90deg, var(--soft-aqua-dark), var(--pastel-violet-dark));
+  --gradient-glow: 0 4px 15px rgba(8, 145, 178, 0.3);
+  --gradient-glow-hover: 0 8px 25px rgba(8, 145, 178, 0.5);
+
+  --font-inter: var(--font-inter);
+  --font-sora: var(--font-sora);
+  --font-orbitron: var(--font-orbitron);
+
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  --border-radius-full: 9999px;
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
+}
+
+/* Dark Mode Variables (Default) */
+:root[data-theme="dark"],
 :root {
   --deep-midnight: #0f111a;
   --deep-midnight-lighter: #151824;
@@ -43,10 +91,57 @@
   --spacing-3xl: 6rem;
 }
 
+/* Night Mode Variables (Ultra Dark OLED) */
+:root[data-theme="night"] {
+  --deep-midnight: #000000;
+  --deep-midnight-lighter: #0a0a0f;
+  --soft-aqua: #22d3ee;
+  --soft-aqua-dark: #06b6d4;
+  --pastel-violet: #a855f7;
+  --pastel-violet-dark: #9333ea;
+  --text-color: #e2e8f0;
+  --text-color-muted: rgba(226, 232, 240, 0.6);
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-hover-bg: rgba(255, 255, 255, 0.05);
+  --glass-bg: rgba(255, 255, 255, 0.02);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --glass-blur: blur(10px);
+
+  --gradient-primary: linear-gradient(90deg, var(--soft-aqua), var(--pastel-violet));
+  --gradient-primary-hover: linear-gradient(90deg, var(--soft-aqua-dark), var(--pastel-violet-dark));
+  --gradient-glow: 0 4px 15px rgba(34, 211, 238, 0.4);
+  --gradient-glow-hover: 0 8px 25px rgba(34, 211, 238, 0.6);
+
+  --font-inter: var(--font-inter);
+  --font-sora: var(--font-sora);
+  --font-orbitron: var(--font-orbitron);
+
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  --border-radius-full: 9999px;
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 html,
@@ -111,9 +206,12 @@ button {
 }
 
 @keyframes gradientShift {
-  0%, 100% {
+
+  0%,
+  100% {
     background-position: 0% center;
   }
+
   50% {
     background-position: 100% center;
   }
@@ -235,6 +333,7 @@ button {
 
 /* Only apply custom cursor on desktop */
 @media (min-width: 769px) {
+
   body,
   a,
   button {
@@ -249,7 +348,9 @@ button {
   }
 
   /* Keep text selection cursor */
-  input, textarea, [contenteditable] {
+  input,
+  textarea,
+  [contenteditable] {
     cursor: text !important;
   }
 }

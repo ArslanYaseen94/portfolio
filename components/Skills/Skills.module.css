@@ -1,5 +1,5 @@
 .skills {
-  background: rgba(15, 17, 26, 0.5);
+  background: var(--deep-midnight-lighter);
   position: relative;
 }
 
@@ -15,7 +15,7 @@
   padding: 0.8rem 1.5rem;
   border: none;
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--glass-bg);
   color: var(--text-color);
   font-weight: 500;
   transition: all 0.3s ease;
@@ -23,7 +23,7 @@
 }
 
 .categoryBtn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--card-hover-bg);
   transform: translateY(-3px);
 }
 
@@ -40,8 +40,8 @@
 }
 
 .skillCard {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 8px;
   padding: 1.5rem;
   transition: all 0.3s ease;
@@ -71,7 +71,7 @@
 
 .skillCard:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--glass-shadow);
 }
 
 .skillCard:hover::before {
@@ -97,7 +97,7 @@
 .skillBar {
   flex: 1;
   height: 8px;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--glass-bg);
   border-radius: 4px;
   overflow: hidden;
 }

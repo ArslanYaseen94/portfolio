@@ -1,5 +1,5 @@
 .technologies {
-  background: rgba(15, 17, 26, 0.5);
+  background: var(--deep-midnight-lighter);
   position: relative;
   padding: 6rem 0;
 }

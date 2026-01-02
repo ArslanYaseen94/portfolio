@@ -1,7 +1,7 @@
 .cursor {
   width: 40px;
   height: 40px;
-  border: 2px solid rgba(74, 222, 222, 0.5);
+  border: 2px solid var(--soft-aqua);
   border-radius: 50%;
   position: fixed;
   margin-left: -20px;
@@ -37,7 +37,7 @@
 
 .cursor.clicked {
   transform: scale(0.8);
-  background: rgba(74, 222, 222, 0.1);
+  background: var(--glass-bg);
 }
 
 .cursorDot.clicked {
@@ -46,8 +46,8 @@
 
 .cursor.linkHovered {
   transform: scale(1.5);
-  background: rgba(74, 222, 222, 0.1);
-  border-color: rgba(192, 132, 252, 0.5);
+  background: var(--glass-bg);
+  border-color: var(--pastel-violet);
 }
 
 .cursorDot.linkHovered {
@@ -56,6 +56,7 @@
 }
 
 @media (max-width: 768px) {
+
   .cursor,
   .cursorDot {
     display: none;

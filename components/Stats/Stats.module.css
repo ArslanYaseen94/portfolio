@@ -1,6 +1,6 @@
 .stats {
   padding: 4rem 0;
-  background: rgba(15, 17, 26, 0.7);
+  background: var(--deep-midnight);
   position: relative;
 }
 
@@ -17,8 +17,8 @@
 }
 
 .statCard {
-  background: linear-gradient(145deg, rgba(20, 22, 35, 0.8), rgba(15, 17, 26, 0.9));
-  border: 1px solid rgba(74, 222, 222, 0.15);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 16px;
   padding: 2.5rem;
   text-align: center;
@@ -50,8 +50,8 @@
 
 .statCard:hover {
   transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 15px 40px rgba(74, 222, 222, 0.2), 0 10px 20px rgba(0, 0, 0, 0.3);
-  border-color: rgba(74, 222, 222, 0.4);
+  box-shadow: var(--glass-shadow);
+  border-color: var(--soft-aqua);
 }
 
 .iconWrapper {

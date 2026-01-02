@@ -4,6 +4,7 @@ import { Inter, Sora, Orbitron } from "next/font/google"
 import Header from "@/components/Header/Header"
 import Footer from "@/components/Footer/Footer"
 import CustomCursor from "@/components/CustomCursor/CustomCursor"
+import { ThemeProvider } from "@/components/theme-provider"
 import type { Metadata } from "next"
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -107,11 +108,18 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {/* Only render CustomCursor on client-side */}
-        <CustomCursor />
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <ThemeProvider
+          attribute="data-theme"
+          defaultTheme="dark"
+          enableSystem={false}
+          themes={["light", "dark", "night"]}
+        >
+          {/* Only render CustomCursor on client-side */}
+          <CustomCursor />
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </ThemeProvider>
         <Analytics />
         <SpeedInsights />
       </body>

@@ -9,10 +9,10 @@
 }
 
 .scrolled {
-  background: rgba(15, 17, 26, 0.8);
+  background: var(--deep-midnight-lighter);
   backdrop-filter: blur(10px);
   padding: 1rem 0;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--glass-shadow);
 }
 
 .container {
@@ -58,6 +58,12 @@
 .logoText span {
   font-weight: 400;
   margin-right: 2px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .nav {
@@ -159,7 +165,7 @@
     right: -100%;
     width: 70%;
     height: 100vh;
-    background: rgba(15, 17, 26, 0.95);
+    background: var(--deep-midnight-lighter);
     backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
