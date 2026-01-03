@@ -78,7 +78,7 @@ const Hero = () => {
                 <Linkedin size={20} />
               </Link>
               <Link
-                href="https://talibraath.dev"
+                href="https://arslanyaseen.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Portfolio"
