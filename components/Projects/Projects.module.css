@@ -336,6 +336,67 @@
   color: #fff;
 }
 
+
+.inprogress {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 1.1rem;
+  background: rgba(10, 12, 20, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(74, 222, 222, 0.3);
+  border-radius: 30px;
+  color: var(--soft-aqua);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.projectCard:hover .inprogress {
+  border-color: var(--soft-aqua);
+  box-shadow: 0 0 25px rgba(74, 222, 222, 0.25);
+  transform: translateY(-2px);
+  background: rgba(10, 12, 20, 0.85);
+}
+
+.statusDot {
+  width: 7px;
+  height: 7px;
+  background-color: var(--soft-aqua);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 10px var(--soft-aqua);
+}
+
+.statusDot::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid var(--soft-aqua);
+  animation: status-pulse 2s infinite ease-out;
+}
+
+@keyframes status-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(2.8);
+    opacity: 0;
+  }
+}
+
 @media (max-width: 1200px) {
   .projectsGrid {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));

@@ -17,7 +17,7 @@ interface EducationItem {
 const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
-      title: "Associate Software Engineer",
+      title: "Software Engineer",
       company: "Transdata",
       period: "Nov 2025 - Ongoing",
       description: [
@@ -29,9 +29,9 @@ const Experience = () => {
       ],
     },
     {
-      title: "Software Engineer Internship",
+      title: "Associate Software Engineer",
       company: "MeemSOft Technologies",
-      period: "Mar 2025 - Sep 2025",
+      period: "Jan 2024 - Sep 2025",
       description: [
         "Assisted in the development of a customer relationship management (CRM) system using Laravel, contributing to a 10% increase in sales team efficiency.",
         "Collaborated with senior developers to troubleshoot and resolve software bugs, improving application stability by 15%.",

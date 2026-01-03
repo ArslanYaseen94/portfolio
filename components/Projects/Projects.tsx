@@ -55,6 +55,12 @@ const Projects = () => {
           {filteredProjects.map((project) => (
             <div key={project.id} className={styles.projectCard}>
               <div className={styles.projectImage}>
+                {project.Inprogress && (
+                  <div className={styles.inprogress}>
+                    <span className={styles.statusDot}></span>
+                    In Progress
+                  </div>
+                )}
                 <Image
                   src={project.image}
                   alt={project.title}

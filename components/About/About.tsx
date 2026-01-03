@@ -48,7 +48,7 @@ const About = () => {
                 <div className={styles.timelineItem}>
                   <div className={styles.timelineMarker}></div>
                   <div className={styles.timelineContent}>
-                    <h5>Associate Software Engineer - Transdata</h5>
+                    <h5>Software Engineer - Transdata</h5>
                     <p className={styles.timelinePeriod}>Nov 2025 - Ongoing</p>
                     <p>Developed RESTful APIs using Laravel for business automation and web applications. Optimized database queries and indexing, improving overall performance by 25%. Collaborated within Agile sprints to deliver clean, maintainable, and production-ready code.</p>
                   </div>
@@ -57,8 +57,8 @@ const About = () => {
                 <div className={styles.timelineItem}>
                   <div className={styles.timelineMarker}></div>
                   <div className={styles.timelineContent}>
-                    <h5>Software Engineer Intern -  Meemsoft</h5>
-                    <p className={styles.timelinePeriod}>Mar 2025 - Sep 2025</p>
+                    <h5>Associate Software Engineer -  Meemsoft</h5>
+                    <p className={styles.timelinePeriod}>Jan 2024 - Sep 2025</p>
                     <p>Developed RESTful API endpoints using Laravel for web and client applications, reducing average response time by approximately 300ms. Optimized database schemas, indexing, and Eloquent queries, resulting in a 25% improvement in overall query performance.</p>
                   </div>
                 </div>
