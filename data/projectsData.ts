@@ -22,7 +22,7 @@ export const projects: Project[] = [
       "Developed a subscription-based Social Media Management SaaS platform with email authentication, Stripe-powered planmanagement, role-based access control, and an admin dashboard to manage users, subscriptions, limits, and platform usage.",
     image: "/projects/social-media-saas-realistic.png",
     category: ["fullstack"],
-    technologies: ["MERN", "Saas", "Mongo", "React", "Node", "Express"],
+    technologies: ["Nextjs", "Saas", "Mongo","Node", "Express"],
     Inprogress: true
   },
   {
