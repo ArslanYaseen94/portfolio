@@ -35,13 +35,25 @@ const Projects = () => {
             className={`${styles.categoryBtn} ${activeCategory === "ai" ? styles.active : ""}`}
             onClick={() => setActiveCategory("ai")}
           >
-            AI & ML
+            AI
+          </button>
+          <button
+            className={`${styles.categoryBtn} ${activeCategory === "aiiml" ? styles.active : ""}`}
+            onClick={() => setActiveCategory("aiiml")}
+          >
+            AI ML
           </button>
           <button
             className={`${styles.categoryBtn} ${activeCategory === "aiagent" ? styles.active : ""}`}
             onClick={() => setActiveCategory("aiagent")}
           >
-            Ai Agent & Chatbot
+            Ai Agent
+          </button>
+          <button
+            className={`${styles.categoryBtn} ${activeCategory === "chatbot" ? styles.active : ""}`}
+            onClick={() => setActiveCategory("chatbot")}
+          >
+            Chatbot
           </button>
           <button
             className={`${styles.categoryBtn} ${activeCategory === "mobile" ? styles.active : ""}`}
